@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/ros-drivers/velodyne.svg?style=svg)](https://circleci.com/gh/ros-drivers/velodyne)
+
 
 Overview
 ========
