@@ -35,7 +35,7 @@ To use the Speed bump code, follow these steps:
 
 2. **Clone this GitHub repository** to the workspace:
     ```bash
-    git clone https://github.com/ros-drivers/velodyne.git
+    git clone [https://github.com/ros-drivers/velodyne.git](https://github.com/Vishnu15018/speed_bump_pathhole.git)
     ```
 
 3. **Build the files**:
