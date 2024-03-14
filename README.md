@@ -3,23 +3,6 @@
 Overview
 ========
 
-Velodyne<sup>1</sup> is a collection of ROS<sup>2</sup> packages supporting `Velodyne high definition 3D LIDARs`<sup>3</sup>.
-
-**Warning**:
-
-  The master branch normally contains code being tested for the next
-  ROS release.  It will not always work with every previous release.
-  To check out the source for the most recent release, check out the
-  tag `velodyne-<version>` with the highest version number.
-
-The current ``master`` branch works with ROS Indigo and Kinetic.
-CI builds are currently run for Lunar and Melodic but extensive
-testing has not been completed in those environments.
-
-- <sup>1</sup>Velodyne: http://www.ros.org/wiki/velodyne
-- <sup>2</sup>ROS: http://www.ros.org
-- <sup>3</sup>`Velodyne high definition 3D LIDARs`: http://www.velodynelidar.com/lidar/lidar.aspx
-
 For this `README.md` file, please note that Speed bump code is present in the `/velodyne_pointcloud/src/Speed_bump_code.cpp`.
 
 ---
@@ -68,3 +51,22 @@ Here are the results obtained after running the Speed bump code:
 
 ![Result Image 2](results/paper_6_d2_39.185_cropped.png)
 *Point cloud data highlighting the presence of a speed bump*
+
+
+### ros and velodyne libraries and details
+Velodyne<sup>1</sup> is a collection of ROS<sup>2</sup> packages supporting `Velodyne high definition 3D LIDARs`<sup>3</sup>.
+
+**Warning**:
+
+  The master branch normally contains code being tested for the next
+  ROS release.  It will not always work with every previous release.
+  To check out the source for the most recent release, check out the
+  tag `velodyne-<version>` with the highest version number.
+
+The current ``master`` branch works with ROS Indigo and Kinetic.
+CI builds are currently run for Lunar and Melodic but extensive
+testing has not been completed in those environments.
+
+- <sup>1</sup>Velodyne: http://www.ros.org/wiki/velodyne
+- <sup>2</sup>ROS: http://www.ros.org
+- <sup>3</sup>`Velodyne high definition 3D LIDARs`: http://www.velodynelidar.com/lidar/lidar.aspx
