@@ -70,3 +70,4 @@ testing has not been completed in those environments.
 - <sup>1</sup>Velodyne: http://www.ros.org/wiki/velodyne
 - <sup>2</sup>ROS: http://www.ros.org
 - <sup>3</sup>`Velodyne high definition 3D LIDARs`: http://www.velodynelidar.com/lidar/lidar.aspx
+- <sup>4</sup> "dowmload the pcl library from http://wiki.ros.org/pcl_ros
