@@ -56,3 +56,15 @@ To use the Speed bump code, follow these steps:
         rosrun velodyne_pointcloud Speed_bump_code
         ```
 
+### Results
+
+Here are the results obtained after running the Speed bump code:
+
+![Speed Bump Plot](results/Fig_with_withoutspeedbump.png)
+*Plot showing the variation in the Z-axis of the point cloud with and without a speed bump*
+
+![Result Image 1](results/paper_5_d2_25.49_cropped.png)
+*Image reference with highlighted point cloud data*
+
+![Result Image 2](results/paper_6_d2_39.185_cropped.png)
+*Point cloud data highlighting the presence of a speed bump*
