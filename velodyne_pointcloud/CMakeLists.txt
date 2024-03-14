@@ -89,11 +89,12 @@ catkin_package(
 
 add_executable(curb_detection_ros src/curb_detection_ros.cpp)
 target_link_libraries(curb_detection_ros ${catkin_LIBRARIES})
+
 add_executable(road_detection_ros_intensity src/road_detection_ros_intensity.cpp)
 target_link_libraries(road_detection_ros_intensity ${catkin_LIBRARIES})
 
-add_executable(test src/test.cpp)
-target_link_libraries(test ${catkin_LIBRARIES})
+add_executable(Speed_bump_code src/Speed_bump_code.cpp)
+target_link_libraries(Speed_bump_code  ${catkin_LIBRARIES})
 
 add_executable(test_2 src/test_2.cpp)
 target_link_libraries(test_2 ${catkin_LIBRARIES})
